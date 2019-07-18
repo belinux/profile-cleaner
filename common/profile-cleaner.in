@@ -197,7 +197,6 @@ case "$1" in
     name="BraveSoftware/Brave-Browser"; export name
       prepath="$XDG_CONFIG_HOME"/$name
       [[ -d "$XDG_CONFIG_HOME"/$name ]] && do_chromebased
-    done
     exit 0
     ;;
   C|c|CB|cb|CD|cd)
